@@ -16,7 +16,7 @@ This app uses the **`runwayml/stable-diffusion-v1-5`** model, a lightweight yet 
 - **Size**: Approximately 1 GB, balancing quality and resource usage for cloud deployment.
 
 ## Deployment
-The app is hosted on [Streamlit Community Cloud](https://streamlit.io/cloud), allowing anyone to access it via a simple URL (e.g., `https://tarakaramu9141-ai-image-generator.streamlit.app`). No local setup is required—just click the link and start creating!
+The app is hosted on [Streamlit Community Cloud](https://streamlit.io/cloud), allowing anyone to access it via a simple URL [(e.g., `https://tarakaramu9141-ai-image-generator.streamlit.app](https://aiimagegenerator-troxy.streamlit.app/). No local setup is required—just click the link and start creating!
 
 ## Project Structure
 ai-image-generator/
