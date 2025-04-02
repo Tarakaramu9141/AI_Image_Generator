@@ -40,7 +40,7 @@ ai-image-generator/
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/your-username/ai-image-generator.git
-cd ai-image-generator
+cd ai-image-generator```
 
 ### 2.Create a Virtual Environment
 python -m venv .venv
