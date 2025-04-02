@@ -1,13 +1,9 @@
 streamlit
+streamlit-lottie
+pillow
+opencv-contrib-python  # For xphoto.oilPainting
+numpy
 torch
-torchvision
 diffusers
 transformers
-accelerate
-pillow
-opencv-python
-streamlit-lottie
-gfpgan
 loguru
-opencv-python-headless
-torch
