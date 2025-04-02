@@ -1,14 +1,22 @@
 # Pro AI Image Studio
 
-A web-based AI image generation tool built with Streamlit and Stable Diffusion. Create stunning 720p artwork from text prompts with customizable settings like art styles and creativity levels. This lightweight version is optimized for speed and low storage, making it suitable for deployment on Streamlit Community Cloud.
+Welcome to **Pro AI Image Studio**, a web-based application that lets you create stunning AI-generated artwork with ease! Powered by Stable Diffusion, this app allows you to generate high-quality images up to 720p resolution, apply artistic styles, and download your creations—all through a simple, user-friendly interface hosted on Streamlit Community Cloud.
 
 ## Features
-- Generate 512x512 images using Stable Diffusion 2.1 Base (~1.2 GB model).
-- Upscale to 720p (e.g., 720x720) with a simple bicubic upscaler.
-- Apply art styles: Oil Painting, Cyberpunk, Watercolor.
-- Adjustable settings: inference steps (10-30) and creativity (1.0-10.0).
-- Download generated images in PNG format.
-- Hosted on Streamlit Community Cloud for easy access via a link.
+- **AI Image Generation**: Create detailed images from text prompts using the Stable Diffusion 1.5 model.
+- **Style Transfer**: Apply artistic effects like Oil Painting, Cyberpunk, and Watercolor to your images.
+- **Upscaling**: Enhance images to 720p resolution for sharper visuals.
+- **Customizable Settings**: Adjust creativity (guidance scale) and generation steps for personalized results.
+- **Downloadable Output**: Save your artwork as PNG files.
+
+## Model Details
+This app uses the **`runwayml/stable-diffusion-v1-5`** model, a lightweight yet powerful version of Stable Diffusion. Key highlights:
+- **Quality**: Produces sharper, more accurate images compared to earlier base models, with excellent prompt adherence.
+- **Efficiency**: Optimized to run on CPU within Streamlit Cloud’s free tier (~1 GB RAM), making it accessible without GPU requirements.
+- **Size**: Approximately 1 GB, balancing quality and resource usage for cloud deployment.
+
+## Deployment
+The app is hosted on [Streamlit Community Cloud](https://streamlit.io/cloud), allowing anyone to access it via a simple URL (e.g., `https://tarakaramu9141-ai-image-generator.streamlit.app`). No local setup is required—just click the link and start creating!
 
 ## Project Structure
 ai-image-generator/
