@@ -17,7 +17,7 @@ This app uses the **`runwayml/stable-diffusion-v1-5`** model, a lightweight yet 
 
 ## Deployment
 The app is hosted on [Streamlit Community Cloud](https://streamlit.io/cloud), allowing anyone to access it via a simple URL [(e.g., `https://tarakaramu9141-ai-image-generator.streamlit.app](https://aiimagegenerator-troxy.streamlit.app/). No local setup is required—just click the link and start creating!
-
+Note : The link is working fine. But takes more time as the model is big and running on the cpu.
 ## Project Structure
 ai-image-generator/
 ├── app/
