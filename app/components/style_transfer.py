@@ -14,8 +14,7 @@ def apply_style(image, style_name):
     return image
 
 def _oil_paint_effect(img, size=7, dynRatio=1):
-    # Simulate oil painting with bilateral filter (no xphoto required)
-    res = cv2.bilateralFilter(img, d=size, sigmaColor=75, sigmaSpace=75)
+    res = cv2.xphoto.oilPainting(img, size, dynRatio)
     return Image.fromarray(res)
 
 def _cyberpunk_effect(img):
