@@ -42,7 +42,7 @@ ai-image-generator/
 git clone https://github.com/your-username/ai-image-generator.git
 cd ai-image-generator```
 
-### 2.Create a Virtual Environment
+## 2.Create a Virtual Environment
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 ### 3. Install Dependencies
