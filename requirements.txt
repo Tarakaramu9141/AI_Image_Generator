@@ -7,3 +7,4 @@ torch
 diffusers
 transformers
 loguru
+accelerate
