@@ -28,11 +28,11 @@ def main():
         st.header("🛠️ Settings")
         model_choice = st.selectbox(
             "Model",
-            ["Stable Diffusion 1.5 (Light & Fast)"],
+            ["Stable Diffusion 1.5 (Enhanced Quality)"],
             index=0
         )
         model_map = {
-            "Stable Diffusion 1.5 (Light & Fast)": "StableDiffusion"
+            "Stable Diffusion 1.5 (Enhanced Quality)": "StableDiffusion15"
         }
         selected_model_key = model_map[model_choice]
         
@@ -48,7 +48,7 @@ def main():
     prompt = st.text_area("📝 Describe your image:", "A majestic lion in the savannah at sunset")
     
     if st.button("✨ Generate Masterpiece", type="primary"):
-        with st.spinner(""):
+        with st.spinner("Generating... (May take 1-2 minutes on cloud)"):
             placeholder = st.empty()
             with placeholder:
                 st_lottie(loading_anim, height=200, key="loading")
@@ -56,7 +56,7 @@ def main():
             try:
                 start_time = time.time()
                 
-                # Generate base image (256x256 for speed and low memory)
+                # Generate base image (512x512)
                 base_image = generate_hd_image(
                     prompt=prompt,
                     model_key=selected_model_key,
