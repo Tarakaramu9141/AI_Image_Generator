@@ -1,0 +1,51 @@
+/* Main app styles */
+.stApp {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: #ffffff;
+}
+
+/* Header styles */
+h1 {
+    color: #00d4ff;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: 800;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+/* Button styles */
+.stButton>button {
+    background: linear-gradient(90deg, #00d4ff 0%, #0066ff 100%);
+    color: white;
+    border-radius: 12px;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    font-weight: 600;
+    transition: all 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stButton>button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Sidebar styles */
+.css-1d391kg {
+    background: rgba(10, 10, 30, 0.8) !important;
+    backdrop-filter: blur(10px);
+    border-right: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Image container */
+.stImage {
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transition: all 0.3s;
+    border: 2px solid rgba(255,255,255,0.1);
+}
+
+.stImage:hover {
+    transform: scale(1.01);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+}
